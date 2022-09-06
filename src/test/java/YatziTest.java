@@ -10,10 +10,16 @@ public class YatziTest {
         assertEquals("I", toRoman(1));
 
     }
+    @Test
+    void TestTwo(){
+
+        assertEquals("II", toRoman(2));
+
+    }
 
     private String toRoman(int i) {
 
-        return null;
+        return "I";
 
     }
 
