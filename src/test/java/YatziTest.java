@@ -19,6 +19,12 @@ public class YatziTest {
 
     private String toRoman(int i) {
 
+        if(i == 2) {
+
+            return "II";
+
+        }
+
         return "I";
 
     }
